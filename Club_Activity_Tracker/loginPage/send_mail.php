@@ -16,9 +16,7 @@ function sendEmail($recipientEmail, $subject, $bodyHTML) {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         
-        // --- YOUR ACCOUNT DETAILS ---
-        $mail->Username   = 'mystery.occult7@gmail.com';
-        $mail->Password   = 'fykqwmzoiuogtnjm';
+        
         // ---------------------------------
         
         // --- CHANGED: Use SSL and Port 465 instead of TLS 587 ---
